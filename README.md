@@ -1,6 +1,6 @@
 # 100-Days-of-Code
 Repo containing solutions to Problem Statements from HackerRank
-Add any solution to the problem statements from HackerRank in any language of your choice Each day a new solution will be added to the repository for the next 100 days.
+Add any solution to the problem statements from HackerRank in any language of your choice Each day a new solution will be added to the repository for the next 100 days. For each language you add, add a new folder in the cloned repository on your device.
 If you are new to GitHub and still want to contribute, follow the following steps:
 1. Clone the repository on your device.
 2. Add the suitable file for the problem you have solved.
