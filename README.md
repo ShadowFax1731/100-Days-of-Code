@@ -11,11 +11,17 @@ To clone the repository-
 git clone https://github.com/ShadowFax1731/100-Days-of-Code.git 
 
 To add the file to the repository-
+
 git add .
 
 To push your file to the master repository-
+
 git push origin master
 
 Make sure you have Git installed on your device and then use git bash to execute the aforementioned commands. Visit https://git-scm.com/docs/gittutorial for more help regarding the usage of Git and its commands.
+
+
 Thank You!
+
+
 Happy 100 Days of Code!!
