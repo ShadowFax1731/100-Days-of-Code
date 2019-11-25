@@ -8,6 +8,7 @@ If you are new to GitHub and still want to contribute, follow the following step
 
 The following commands will help you-
 To clone the repository-
+
 git clone https://github.com/ShadowFax1731/100-Days-of-Code.git 
 
 To add the file to the repository-
