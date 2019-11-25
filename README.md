@@ -7,6 +7,7 @@ If you are new to GitHub and still want to contribute, follow the following step
 3. Push the changes to the master repository.
 
 The following commands will help you-
+
 To clone the repository-
 
 git clone https://github.com/ShadowFax1731/100-Days-of-Code.git 
