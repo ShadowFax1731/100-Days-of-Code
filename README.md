@@ -18,7 +18,7 @@ To push your file to the master repository-
 
 git push origin master
 
-Make sure you have Git installed on your device and then use git bash to execute the aforementioned commands. Visit https://git-scm.com/docs/gittutorial for more help regarding the usage of Git and its commands.
+Make sure you have Git installed on your device and then use Git Bash to execute the aforementioned commands. Visit https://git-scm.com/docs/gittutorial for more help regarding the usage of Git and its commands.
 
 
 Thank You!
