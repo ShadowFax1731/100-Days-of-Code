@@ -9,17 +9,20 @@ import java.util.regex.*;
 public class Solution {
 
     //input
-    Scanner sc = new Scanner(System.in);
-    int arCount;
-    arCount = sc.nextInt();
-    long ar [] = long [arCount];
-    for (int i = 0; i < arCount; i++){
-        ar[] = sc.nextInt();
+    public static void main(String [] args){
+        Scanner sc = new Scanner(System.in);
+        int arCount;
+        arCount = sc.nextInt();
+        long ar [] = long [arCount];
+        for (int i = 0; i < arCount; i++){
+            ar[] = sc.nextInt();
+        }
+    
+        //result
+        long result = aVeryBigSum(ar);
+        System.out.println(result);
     }
-
-    //result
-    long result = aVeryBigSum(ar);
-    System.out.println(result);
+    
 
     //completed function description for a very big sum
     static long aVeryBigSum(long[] ar) {
