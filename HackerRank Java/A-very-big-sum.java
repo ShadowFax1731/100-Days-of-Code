@@ -21,6 +21,7 @@ public class Solution {
         //result
         long result = aVeryBigSum(ar);
         System.out.println(result);
+        sc.close();
     }
     
 
