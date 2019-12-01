@@ -1,0 +1,19 @@
+#!/bin/python3
+import os
+import sys
+def pageCount(n, p):
+    if(n-p>=p):
+        u=p//2
+    else:
+        if(n%2==0 and p%2!=0):
+            u=(n-(p-1))//2
+        else:
+            u=(n-p)//2
+    return u
+if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+    n = int(input())
+    p = int(input())
+    result = pageCount(n, p)
+    fptr.write(str(result) + '\n')
+    fptr.close()
