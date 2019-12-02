@@ -22,7 +22,7 @@ public class Solution {
         long result = aVeryBigSum(ar);
         System.out.println(result);
         sc.close();
-    }
+	    }
     
 
     //completed function description for a very big sum
