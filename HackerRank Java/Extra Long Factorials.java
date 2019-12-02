@@ -25,3 +25,4 @@ public class Solution {
         extraLongFactorials(n);
         sc.close();
     }
+}

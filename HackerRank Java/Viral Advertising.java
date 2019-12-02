@@ -28,4 +28,5 @@ public static void main(String [] args){
     int result = viralAdvertising(n);
     System.out.println(result);
     sc.close();
+    }
 }

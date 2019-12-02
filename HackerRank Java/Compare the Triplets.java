@@ -17,7 +17,7 @@ public class Solution {
                     alice++;
                 else if (a.get(i) < b.get(i))
                     bob++;
-            }
+            } 
             result.add(alice);
             result.add(bob);
             return result;
@@ -36,4 +36,6 @@ public static void main(String [] args){
     }
 
     System.out.println(compareTriplets(a, b));
+    sc.close();
+}
 }
