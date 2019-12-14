@@ -1,0 +1,39 @@
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+# Complete the encryption function below.
+def encryption(s):
+    lis=[]
+    st=''
+    ss=''
+    req_count=math.sqrt(len(s))
+    num1=math.ceil(req_count)
+    num2=math.floor(req_count)
+    print(num1,num2,req_count,s)
+    for j in range(len(s)):
+        li=[]
+        for i in range(j,len(s),num1):
+            print(s[i])
+            li.append(s[i])
+        print(li)
+        lis.append(li)
+    print(lis)
+    for i in range(num1):
+        ss+=st.join(lis[i])+' '
+    print(ss)
+    return ss
+if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+    s = input()
+
+    result = encryption(s)
+
+    fptr.write(result + '\n')
+
+    fptr.close()
